@@ -11,7 +11,7 @@ jobs:
   hello world:
     run-on: ubuntu
   steps: null
-  '-uses': actions/checkoutv2
+  '-uses': actions/checkout@v2
   name: hello world
   run: echo "hello world"
   shell: bash
